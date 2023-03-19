@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+
+            <!-- Personal Details here --> 
+            
+            <fieldset>
+                <h3>Personal</h3>
+                <hr>
+                <p>
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" required placeholder="John Doe">
+                </p>
+                <p>
+                    <label for="dob">Date of Birth</label><br> 
+                        <select>
+                            <optgroup label="Months">
+                                <option value="empty">Month</option>
+                                <option value="january">January</option>
+                                <option value="february">February</option>
+                                <option value="march">March</option>
+                                <option value="april">April</option>
+                                <option value="may">May</option>
+                                <option value="june">June</option>
+                                <option value="july">July</option>
+                                <option value="august">August</option>
+                                <option value="september">September</option>
+                                <option value="october">October</option>
+                                <option value="november">November</option>
+                                <option value="december">December</option>
+                            </optgroup>
+                        </select>
+                    <input type="number" name="day" id="day" placeholder="Day" min="1" max="31">
+                    <input type="number" name="year" id="year" placeholder="Year" min="1960" max="2023">
+                        
+                </p>
+                <p>
+                    <label for="fanimal">What is your favorite anminal?</label><br>
+                    <input type="button" onclick="alert('hello world')" value="Lion">
+                    <input type="button" value="Tiger">
+                    <input type="button" value="Bear">
+                    <input type="button" value="Bull">
+                    <input type="button" value="Serval">
+                </p>
+            </fieldset>
+            <br>
+
+            <!-- Account details here -->
+           
+            <fieldset>
+                <h3>Account</h3>
+                <hr>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="john@johndoe@gmail.com" required> 
+                </p>
+                <p>
+                    <label for="pword">Password</label><br>
+                    <input type="password" name="Password" id="pword">
+                </p>
+                <p>
+                    <label for="vword">Verify Password</label><br>
+                    <input type="password" name="verify_pass" id="vword">
+                </p>
+            </fieldset>
+            <br>
+
+            <!-- Contact details here -->
+            
+            <fieldset>
+                <h3>Contact</h3>
+                <hr>
+                <p>
+                    <label for="address">Address</label><br>
+                    <input type="text" name="address" id="address" placeholder="93B Jackson St.">
+                </p>
+                <p>
+                    <label for="city">City</label><br>
+                    <input type="text" name="city" id="city" placeholder="93B Jackson St.">
+                </p>
+                <p>
+                    <label for="state">State</label><br>
+                        <select>
+                            <optgroup label="months">
+                                <option value="empty">-Select your state-</option>
+                                <option value="abia">Abia</option>
+                                <option value="adamawa">Adamawa</option>
+                                <option value="anambra">Anambra</option>
+                                <option value="akwa_ibom">Akwa-Ibom</option>
+                                <option value="bauchi">Bauchi</option>
+                                <option value="bayelsa">Bayelsa</option>
+                                <option value="benue">Benue</option>
+                                <option value="borno">Borno</option>
+                                <option value="cross_river">Cross River</option>
+                                <option value="delta">Delta</option>
+                                <option value="ebonyi">Ebonyi</option>
+                                <option value="edo">Edo</option>
+                                <option value="ekiti">Ekiti</option>
+                                <option value="enugu">Enugu</option>
+                                <option value="gombe">Gombe</option>
+                                <option value="imo">Imo</option>
+                                <option value="jigawa">Jigawa</option>
+                                <option value="kaduna">Kaduna</option>
+                                <option value="kano">Kano</option>
+                                <option value="katsina">Katsina</option>
+                                <option value="kebbi">Kebbi</option>
+                                <option value="kogi">Kogi</option>
+                                <option value="kwara">Kwara</option>
+                                <option value="lagos">Lagos</option>
+                                <option value="nasarawa">Nasarawa</option>
+                                <option value="niger">Niger</option>
+                                <option value="ogun">Ogun</option>
+                                <option value="ondo">Ondo</option>
+                                <option value="osun">Osun</option>
+                                <option value="oyo">Oyo</option>
+                                <option value="plateau">Plateau</option>
+                                <option value="rivers">Rivers</option>
+                                <option value="sokoto">Sokoto</option>
+                                <option value="taraba">Taraba</option>
+                                <option value="yobe">yobe</option>
+                                <option value="zamfara">Zamfara</option>
+                                <option value="fct">FCT</option>
+                            </optgroup>
+                        </select>
+                </p>
+                <p>
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" name="phone" id="phone" placeholder="+234879148856">
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
