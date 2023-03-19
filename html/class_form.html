@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up To Drive</title>
+</head>
+<body>
+    <main>
+        <form>
+            <fieldset>
+                <h2>Become a driver</h2>
+                <p><a href="#">Sign up to ride</a></p>
+            </fieldset>
+            <fieldset>
+                <input type="radio" name="car" id="have">
+                <label for="have">i have a car</label>
+                <input type="radio" name="car" id="need">
+                <label for="need">i need a car</label>
+            </fieldset>
+            <fieldset>
+                <legend>personal information</legend>
+                <ul>
+                    <li>
+                        <label for="fname">First name</label>
+                        <input type="text" name="fname" id="fname" required placeholder="first name" >
+                    </li>
+                    <li>
+                        <label for="sname">Surname</label>
+                        <input type="text" name="sname" id="sname" placeholder="surname" required>
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required>
+                    </li>
+                    <li>
+                        <label for="pw">Password</label>
+                        <input type="password" name="pass" id="pw">
+                    </li>
+                    <li>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" maxlength="11">
+                    </li>
+                    <li>
+                        <label for="city">City you'll drive in</label>
+                        <select>
+                            <optgroup label="East">
+                                <option value="Ont">Onitsha</option>
+                                <option value="Aba">Aba</option>
+                                <option value="Owr">Owerri</option>
+                                <option value="Enu">Enugu</option>
+                            </optgroup>
+                            <optgroup label="West">
+                                <option value="Lag" selected>Lagos</option>
+                                <option value="Abk">Abeokuta</option>
+                                <option value="Osu">Osun</option>
+                                <option value="Ond">Ondo</option>
+                            </optgroup>
+                            <optgroup label="North">
+                                <option value="Kdn">Kaduna</option>
+                                <option value="Kno">Kano</option>
+                                <option value="Kat">Katsina</option>
+                                <option value="Sok">Sokoto</option>
+                            </optgroup>
+                            <optgroup label="South">
+                                <option value="Riv">Rivers</option>
+                                <option value="Bay">Bayelsa</option>
+                                <option value="Del">Delta</option>
+                                <option value="Akw">Akwa-Ibom</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="code">Invite code(optional)</label>
+                        <input type="text" name="code" id="code" min="7" max="7">
+                    </li>
+                    <li>
+                        <input type="checkbox" name="agree1" id="agree1" checked>
+                        <label for="agree1">I accept to be part of the driving lesson</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="agree2" id="agree2">
+                        <label for="agrees2">I agree to all product services to be shared with via email</label>
+                    </li>
+                   
+                    <li>
+                        <label for="photo">upload your passport photograph</label>
+                        <input type="file" name="photo" id="photo" accept="jpg, jpeg, png, webp" multiple>
+                    </li>
+                    <li>
+                        <input type="submit" value="click here to submit">
+                    </li>
+                </ul>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
