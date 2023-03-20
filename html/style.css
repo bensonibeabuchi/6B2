@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.name p{
+    background: blue;
+}

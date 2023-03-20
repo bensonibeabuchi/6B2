@@ -4,8 +4,8 @@ body
   min-width: fit-content;
   margin: 0 auto;
   text-align: justify;
-
 }
+
 h1
 {
   text-align: center;
@@ -48,13 +48,15 @@ header img
   padding-top: 20.15px;
 }
 
-nav {
+nav
+{
   height: 80px;
   flex: 100%;
   display: flex;
 }
 
-nav ul {
+nav ul
+{
   padding:0;
   list-style-type: none;
   flex: 2;
