@@ -9,10 +9,9 @@
 <body>
     <main>
         <form>
-
             <!-- Personal Details here --> 
-            <fieldset style="width: 25em; background-color: rgb(238, 237, 237);" >
-                <fieldset>
+            <fieldset style="width: 18em; background-color: rgb(238, 237, 237);" >
+                <fieldset style="border: 0;" >
                     <h3>Personal</h3>
                     <hr>
                     <p>
@@ -37,9 +36,64 @@
                                     <option value="december">December</option>
                                 </optgroup>
                             </select>
-                        <input type="number" name="day" id="day" placeholder="Day" min="1" max="31">
+                            <select>
+                                <optgroup label="Days">
+                                    <option value="Days" selected >Days</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">6</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </optgroup>
+                            </select>
+                            <select>
+                                <optgroup label="Years">
+                                    <option value="year">Year</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2010">2010</option>
+                                </optgroup>
+                            </select>
+                        <!-- <input type="number" name="day" id="day" placeholder="Day" min="1" max="31">
                         <input type="number" name="year" id="year" placeholder="Year" min="1960" max="2023">
-                            
+                             -->
                     </p>
                     <p>
                         <label for="fanimal">What is your favorite anminal?</label><br>
@@ -54,42 +108,42 @@
     
                 <!-- Account details here -->
                
-                <fieldset>
+                <fieldset style="border: 0;">
                     <h3>Account</h3>
                     <hr>
                     <p>
                         <label for="email">Email</label><br>
-                        <input type="email" name="email" id="email" placeholder="john@johndoe@gmail.com" required> 
+                        <input type="email" name="email" id="email" placeholder="john@johndoe@gmail.com" required size="25em" > 
                     </p>
                     <p>
                         <label for="pword">Password</label><br>
-                        <input type="password" name="Password" id="pword">
+                        <input type="password" name="Password" id="pword" size="25em">
                     </p>
                     <p>
                         <label for="vword">Verify Password</label><br>
-                        <input type="password" name="verify_pass" id="vword">
+                        <input type="password" name="verify_pass" id="vword" size="25em">
                     </p>
                 </fieldset>
                 <br>
     
                 <!-- Contact details here -->
                 
-                <fieldset>
+                <fieldset style="border: 0;">
                     <h3>Contact</h3>
                     <hr>
                     <p>
                         <label for="address">Address</label><br>
-                        <input type="text" name="address" id="address" placeholder="93B Jackson St.">
+                        <input type="text" name="address" id="address" placeholder="93B Jackson St." size="25em">
                     </p>
                     <p>
                         <label for="city">City</label><br>
-                        <input type="text" name="city" id="city" placeholder="93B Jackson St.">
+                        <input type="text" name="city" id="city" placeholder="93B Jackson St." size="25em">
                     </p>
                     <p>
                         <label for="state">State</label><br>
                             <select>
                                 <optgroup label="States">
-                                    <option value="empty">-Select your state-</option>
+                                    <option value="empty" >-Select your state-</option>
                                     <option value="abia">Abia</option>
                                     <option value="adamawa">Adamawa</option>
                                     <option value="anambra">Anambra</option>
@@ -136,7 +190,7 @@
                     </p>
                 </fieldset>
                 <br>
-                <fieldset>
+                <fieldset style="border: 0;">
                     <br>
                     <input type="submit" value="Submit">
                     <input type="reset" value="Reset">
