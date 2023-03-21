@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade</title>
+    <style>
+        aside + section{
+            width: 65%;
+            height: 3000px;
+        }
+        aside{
+            font-size: 15px;
+            background-color: #FFE46B;
+        }
+        aside > h2{
+            font-size: 2em;
+        }
+        h2 ~ p{
+            border: 1em solid blue;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <aside>
+            <h2>Heading</h2>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. A minus molestiae mollitia cumque culpa iure provident magnam excepturi beatae, assumenda quae doloremque facere nobis laborum ea magni incidunt doloribus suscipit?
+            </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nemo eum ad! Error repudiandae omnis delectus nam pariatur quod reiciendis necessitatibus laudantium in cum, beatae molestiae, ad aliquid odit veniam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsa porro accusantium ratione, non deserunt magnam iste quasi mollitia, aliquid rerum numquam odio, molestiae quas! Voluptates aut quibusdam dolores excepturi?</p>
+        </aside>
+        <section>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eaque quibusdam quisquam. Rerum est animi nulla mollitia, enim perferendis similique molestiae iure officiis, illo repellat quis quam non voluptatum quibusdam.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
