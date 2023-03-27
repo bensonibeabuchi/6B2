@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav ul{
+            list-style: none;
+            background-color: rgb(2, 24, 151);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 150px;
+            padding: 10px;
+        }
+        nav ul li:nth-of-type(n+1){
+            align-self: flex-start;
+        }
+        nav ul li:nth-of-type(n+3){
+            align-self: center;
+        }
+        nav ul li:nth-of-type(n+6){
+            align-self: flex-end;
+        }
+
+        li{
+            color: white;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(4, 4fr);
+            grid-template-rows: repeat(6, 6fr);
+            gap: 1em;
+            grid-template-areas: "a a a b" "a a a c" "i i j d" "h g f d" " e e e e";
+        }
+
+        main > *{
+            background-color: darkgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>home 1</li>
+                <li>home 2</li>
+                <li>home 3</li>
+                <li>home 4</li>
+                <li>home 5</li>
+                <li>home 6</li>
+                <li>home 7</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>1</section>
+        <section>
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
+        </section>
+        <aside>
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
+            <article></article>
+        </aside>
+        <footer>
+            My footer goes here
+        </footer>
+    </main>
+</body>
+</html>

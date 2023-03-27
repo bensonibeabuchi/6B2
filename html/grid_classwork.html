@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         nav ul{
+            list-style: none;
+            background-color: rgb(2, 15, 91);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 150px;
+            padding: 10px;
+        }
+
+        nav ul .list1{
+            align-self: flex-start;
+        }
+
+        nav ul .list3{
+            align-self: flex-end;
+        }
+ 
+        li{
+            color: #fff;
+            text-align: center;
+        }
+ 
+        li:hover{
+            background-color: rgb(231, 106, 11);
+            cursor: pointer;
+        }
+
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(4, 4fr);
+            grid-template-rows: repeat(5, 100px 100px 200px 200px 150px);
+            gap: 1em;
+            grid-template-areas: "a a a b" "a a a c" "i i j d" "h g f d" " e e e e";
+        }
+
+        section{
+            grid-area: a;
+            background-color: chocolate;
+        }
+        aside{
+            grid-area: d;
+            background-color: rgb(255, 238, 0);
+        }
+
+        footer{
+            grid-area: e;
+            background-color: burlywood;
+        }
+        .section2{
+            grid-area: i;
+        }
+        .section3{
+            grid-area: h;
+        }
+
+        /* ASIDE TOP RIGHT */
+        .aside1 {
+            background-color: gray;
+            grid-area: b;
+        }
+
+        aside:first-of-type{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(2,100px);
+            gap: 10px;
+        }
+        aside > *{
+            background-color: aqua;
+        }
+        /* ASIDE TOP RIGHT */
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 200px);
+            gap: 10px
+            ;
+        }
+
+        div section:first-of-type{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 200px);
+            gap: 10px;
+        }
+        div section:last-of-type{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(1, 200px);
+            gap: 10px
+        }
+
+        section > *{
+            background-color: fuchsia;
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="list1">home 1</li>
+                <li class="list2">home 2</li>
+                <li class="list3">home 3</li>
+                <li class="list1">home 4</li>
+                <li class="list2">home 5</li>
+                <li class="list3">home 6</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>this is my first section teste tesdbf,djhbsjdhx,s</section>
+        <div class="section2">
+            <section>
+                <article>this is my first article inside the 2nd section</article>
+                <article>this is my second article inside the 2nd section</article>
+            </section>
+            <section>
+                <article>this is my first article inside the 3rd section</article>
+                <article>this is my second article inside the 3rd section</article>
+                <article>this is my third article inside the 3rd section</article>
+            </section>
+        </div>
+        <aside class="aside1">
+            <article>this is my first article inside first aside</article>
+            <article>this is my second article inside first aside</article>
+        </aside>
+        <aside>this is my second aside</aside>
+        <footer>This is my footer</footer>
+    </main>
+    
+</body>
+</html>
