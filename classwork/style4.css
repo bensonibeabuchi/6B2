@@ -31,7 +31,7 @@ h2{
 }
 
 .china{
-    background-image: url(media/star.png), url(media/star.png), url(media/star.png), url(media/star.png), url(media/star.png), url(media/red.jpg);
+    background-image: url(/media/star.png), url(/media/star.png), url(/media/star.png), url(/media/star.png), url(/media/star.png), url(/media/red.jpg);
     background-repeat: no-repeat;
     background-size: 140px, 30px, 30px, 30px, 30px, cover;
     background-position: 30px 30px, 190px 30px, 220px 80px, 210px 130px, 180px 180px, center;

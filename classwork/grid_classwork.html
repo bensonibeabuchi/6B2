@@ -7,103 +7,91 @@
     <title>Document</title>
 
     <style>
-         nav ul{
-            list-style: none;
-            background-color: rgb(2, 15, 91);
+          nav ul{
+            background-color: fuchsia;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
+            list-style: none;
             align-items: center;
-            height: 150px;
-            padding: 10px;
+            height: 50px;
+            padding: 5px;
         }
 
-        nav ul .list1{
+        nav ul li:nth-of-type(3n+1){
             align-self: flex-start;
         }
-
-        nav ul .list3{
+        nav ul li:nth-of-type(3n+3){
             align-self: flex-end;
         }
- 
-        li{
-            color: #fff;
-            text-align: center;
-        }
- 
-        li:hover{
-            background-color: rgb(231, 106, 11);
-            cursor: pointer;
-        }
 
-
-        main {
+        main{
             display: grid;
-            grid-template-columns: repeat(4, 4fr);
-            grid-template-rows: repeat(5, 100px 100px 200px 200px 150px);
-            gap: 1em;
-            grid-template-areas: "a a a b" "a a a c" "i i j d" "h g f d" " e e e e";
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 100px 100px 200px 200px 150px;
+            grid-template-areas: "a a a b"
+                                  "a a a b"
+                                  "c c c d"
+                                  "c c c d"
+                                  "e e e e";
+            gap: 10px;
         }
 
-        section{
+        main > :nth-child(1){
             grid-area: a;
-            background-color: chocolate;
         }
-        aside{
-            grid-area: d;
-            background-color: rgb(255, 238, 0);
-        }
-
-        footer{
-            grid-area: e;
-            background-color: burlywood;
-        }
-        .section2{
-            grid-area: i;
-        }
-        .section3{
-            grid-area: h;
+        
+        main > :nth-child(2){
+            grid-area: c;
         }
 
-        /* ASIDE TOP RIGHT */
-        .aside1 {
-            background-color: gray;
+        main > :nth-child(3){
             grid-area: b;
         }
 
-        aside:first-of-type{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            grid-template-rows: repeat(2,100px);
-            gap: 10px;
+        main > :nth-child(4){
+            grid-area: d;
         }
-        aside > *{
-            background-color: aqua;
-        }
-        /* ASIDE TOP RIGHT */
 
-        div {
+        main > :nth-child(5){
+            grid-area: e;
+        }
+
+        main > *{
+            background-color: green;
+        }
+
+        div{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(2, 200px);
-            gap: 10px
-            ;
+            gap: 10px;
         }
-
         div section:first-of-type{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(1, 200px);
             gap: 10px;
         }
+
         div section:last-of-type{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: repeat(1, 200px);
-            gap: 10px
+            gap: 10px;
         }
-
         section > *{
             background-color: fuchsia;
+        }
+
+        aside:first-of-type{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 100px);
+            gap: 10px;
+        }
+
+        aside > *{
+            background-color: aqua;
         }
       
     </style>
