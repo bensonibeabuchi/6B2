@@ -28,18 +28,86 @@
         li{
             color: white;
         }
+        main > *{
+            background-color: darkgray;
+        }
 
         main {
             display: grid;
             grid-template-columns: repeat(4, 4fr);
-            grid-template-rows: repeat(6, 6fr);
+            grid-template-rows: 100px 100px 100px 100px 100px 150px;
             gap: 1em;
-            grid-template-areas: "a a a b" "a a a c" "i i j d" "h g f d" " e e e e";
+            grid-template-areas: "a a a b"
+                                 "a a a b"
+                                 "c c c b"
+                                 "c c c b"
+                                 "c c c b"
+                                 "d d d d";
+        }
+        
+        main > :nth-child(1){
+            grid-area: a;
+        }
+        main > :nth-child(2){
+            grid-area: c;
+        }
+        main > :nth-child(3){
+            grid-area: b;
+        }
+        main > :nth-child(4){
+            grid-area: d;
+            background-color: magenta;
         }
 
-        main > *{
-            background-color: darkgrey;
+        aside > *{
+            background-color: darksalmon;
         }
+        aside:first-of-type{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(5, 5fr);
+            gap: 10px;
+        }
+
+        section + section > *{
+            background-color: aqua;
+        }
+
+        section + section{
+            display: grid;
+            grid-template-columns: repeat(3, 3fr);
+            grid-template-rows: 100px 100px 113px;
+            gap: 10px;
+            grid-template-areas: "a a b"
+                                 "c c c"
+                                 "d d d"       ;
+        }
+
+        section + section :nth-child(1){
+            grid-area: a;
+        }
+
+        section + section :nth-child(2){
+            grid-area: b;
+        }
+
+        section + section :nth-child(6){
+            grid-area: d;
+        }
+
+        main{
+            text-align: center;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p{
+            padding: 40px;
+        }
+        
+
+
+
 
     </style>
 </head>
@@ -47,35 +115,37 @@
     <header>
         <nav>
             <ul>
-                <li>home 1</li>
-                <li>home 2</li>
-                <li>home 3</li>
-                <li>home 4</li>
-                <li>home 5</li>
-                <li>home 6</li>
-                <li>home 7</li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Project</li>
+                <li>Classwork</li>
+                <li>Assignment</li>
+                <li>Sign up</li>
+                <li>Contact</li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>1</section>
+        <section>The first section goes here</section>
         <section>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
+            <article>First Article inside the first section</article>
+            <article>Second Article inside the first section</article>
+            <article>Third Article inside the first section</article>
+            <article>Fourth Article inside the first section</article>
+            <article>Fifth Article inside the first section</article>
+            <article>Last Article inside the first section</article>
         </section>
         <aside>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
+            <article>First Aside</article>
+            <article>Second Aside</article>
+            <article>Third Aside</article>
+            <article>Fourth Aside</article>
+            <article>Fifth Aside</article>
         </aside>
         <footer>
-            My footer goes here
+            <p>
+                Footer goes here <br> Copyright BENSON IBEABUCHI 2023
+            </p>
         </footer>
     </main>
 </body>
