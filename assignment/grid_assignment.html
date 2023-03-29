@@ -8,7 +8,7 @@
     <style>
         nav ul{
             list-style: none;
-            background-color: rgb(2, 24, 151);
+            background-color: rgb(254, 153, 2);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -29,14 +29,14 @@
             color: white;
         }
         main > *{
-            background-color: darkgray;
+            background-color: rgb(254, 153, 2);
         }
 
         main {
             display: grid;
             grid-template-columns: repeat(4, 4fr);
             grid-template-rows: 100px 100px 100px 100px 100px 150px;
-            gap: 1em;
+            gap: 5px;
             grid-template-areas: "a a a b"
                                  "a a a b"
                                  "c c c b"
@@ -56,28 +56,28 @@
         }
         main > :nth-child(4){
             grid-area: d;
-            background-color: magenta;
+            background-color: darkslateblue;
         }
 
         aside > *{
-            background-color: darksalmon;
+            background-color: green;
         }
         aside:first-of-type{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(5, 5fr);
-            gap: 10px;
+            gap: 5px;
         }
 
         section + section > *{
-            background-color: aqua;
+            background-color: red;
         }
 
         section + section{
             display: grid;
             grid-template-columns: repeat(3, 3fr);
-            grid-template-rows: 100px 100px 113px;
-            gap: 10px;
+            grid-template-rows: 100px 100px 100px;
+            gap: 5px;
             grid-template-areas: "a a b"
                                  "c c c"
                                  "d d d"       ;
