@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benson Ibeabuchi Grid</title>
     <style>
+        body{
+            background-color: khaki;
+            font-family: Helvetica, sans-serif;
+            text-align: center;
+        }
         nav ul{
             list-style: none;
-            background-color: #1200d5;
+            background-color: darkkhaki;
             display: flex;
             justify-content: space-between;
             align-items: center;
             height: 150px;
             padding: 10px;
+            border: 1px solid black;
         }
         nav ul li:nth-of-type(n+1){
             align-self: flex-start;
@@ -26,10 +32,10 @@
         }
 
         li{
-            color: white;
+            color: black;
         }
         main > *{
-            background-color: #fddbac;
+            background-color: darkkhaki;
         }
 
         main {
@@ -47,30 +53,35 @@
         
         main > :nth-child(1){
             grid-area: a;
+            border: 1px solid black;
         }
         main > :nth-child(2){
             grid-area: c;
+            background-color: khaki;
         }
         main > :nth-child(3){
             grid-area: b;
         }
         main > :nth-child(4){
             grid-area: d;
-            background-color: #CC6B14;
+            border: 1px solid black;
         }
 
         aside > *{
-            background-color: #DB8B1A;
+            background-color: darkkhaki;
+            border: 1px solid black;
         }
         aside:first-of-type{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(5, 5fr);
             gap: 5px;
+            background-color: khaki;
         }
 
         section + section > *{
-            background-color: #A86B14;
+            background-color: darkkhaki;
+            border: 1px solid black;
         }
 
         section + section{
@@ -94,18 +105,6 @@
         section + section :nth-child(6){
             grid-area: d;
         }
-
-        main{
-            text-align: center;
-            font-weight: bolder;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        p{
-            padding: 40px;
-        }
-        
-
     </style>
 </head>
 <body>
@@ -123,21 +122,21 @@
         </nav>
     </header>
     <main>
-        <section><h3>The first section goes here</h3></section>
+        <section><p>The first section goes here</p></section>
         <section>
-            <article><h3>First Article inside the first section</h3></article>
-            <article><h3>Second Article inside the first section</h3></article>
-            <article><h3>Third Article inside the first section</h3></article>
-            <article><h3>Fourth Article inside the first section</h3></article>
-            <article><h3>Fifth Article inside the first section</h3></article>
-            <article><h3>Last Article inside the first section</h3></article>
+            <article><p>First Article</p></article>
+            <article><p>Second Article</p></article>
+            <article><p>Third Article</p></article>
+            <article><p>Fourth Article</p></article>
+            <article><p>Fifth Article</p></article>
+            <article><p>Last Article</p></article>
         </section>
         <aside>
-            <article><h3>First Aside</h3></article>
-            <article><h3>Second Aside</h3></article>
-            <article><h3>Third Aside</h3></article>
-            <article><h3>Fourth Aside</h3></article>
-            <article><h3>Fifth Aside</h3></article>
+            <article><p>First Aside</p></article>
+            <article><p>Second Aside</p></article>
+            <article><p>Third Aside</p></article>
+            <article><p>Fourth Aside</p></article>
+            <article><p>Fifth Aside</p></article>
         </aside>
         <footer>
             <p>

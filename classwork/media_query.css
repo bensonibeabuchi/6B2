@@ -1,0 +1,227 @@
+    @media screen and (max-width:480px) {
+
+    body{
+        background-color: khaki;
+    }
+
+    main{
+        width: 100%;
+        height: 100vh; 
+    }
+
+    main > *{
+        background-color: darkkhaki;
+        border: 1px solid black;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(10, 10fr);
+        gap: 10px;
+        grid-template-areas: "a"
+                            "b"
+                            "c"
+                            "d"
+                            "e"
+                            "f"
+                            "g"
+                            "h"
+                            "i"
+                            "j";
+    }
+
+    main > :nth-child(1){
+        grid-area: a;
+    }
+    main > :nth-child(2){
+        grid-area: b;
+    }
+    main > :nth-child(3){
+        grid-area: c;
+    }
+    main > :nth-child(4){
+        grid-area: d;  
+    }
+    main > :nth-child(5){
+        grid-area: e;
+    }
+    main > :nth-child(6){
+        grid-area: f;
+    }
+
+    main > :nth-child(7){
+        grid-area: g;
+    }
+
+    main > :nth-child(8){
+        grid-area: h;
+    }
+
+    main > :nth-child(9){
+        grid-area: i;
+    }
+
+    main > :nth-child(10){
+        grid-area: j; 
+    }
+
+    p{
+        text-align: center;
+    }
+    }
+
+    @media screen and (min-width:481px) {
+
+        body{
+            background-color: khaki;
+        }
+
+        main{
+            width: 100%;
+            height: 100vh; 
+        }
+
+        main > *{
+            background-color: darkkhaki;
+            border: 1px solid black;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(2,2fr);
+            grid-template-rows: repeat(6, 6fr);
+            gap: 10px;
+            grid-template-areas: "a a"
+                                "b c"
+                                "d e"
+                                "f g"
+                                "h i"
+                                "j j";
+        }
+
+        main > :nth-child(1){
+            grid-area: a;
+        }
+        main > :nth-child(2){
+            grid-area: b;
+        }
+        main > :nth-child(3){
+            grid-area: c;
+        }
+        main > :nth-child(4){
+            grid-area: d;  
+        }
+        main > :nth-child(5){
+            grid-area: e;
+        }
+        main > :nth-child(6){
+            grid-area: f;
+        }
+
+        main > :nth-child(7){
+            grid-area: g;
+        }
+
+        main > :nth-child(8){
+            grid-area: h;
+        }
+
+        main > :nth-child(9){
+            grid-area: i;
+        }
+
+        main > :nth-child(10){
+            grid-area: j; 
+        }
+
+        p{
+            text-align: center;
+        }
+    }
+    
+    @media screen and (min-width:768px){
+
+        body{
+            background-color: khaki;
+        }
+        
+        main{
+            width: 100%;
+            height: 100vh; 
+        }
+        
+        main > *{
+            background-color: darkkhaki;
+            border: 1px solid black;
+        }
+        
+        main {
+            display: grid;
+            grid-template-columns: repeat(4,4fr);
+            grid-template-rows: repeat(5, 5fr);
+            gap: 10px;
+            grid-template-areas: "a a a a"
+                                "b c c d"
+                                "e f g h"
+                                "i i i h"
+                                "j j j j";
+        }
+        
+        main > :nth-child(1){
+            grid-area: a;
+        }
+        main > :nth-child(2){
+            grid-area: b;
+        }
+        main > :nth-child(3){
+            grid-area: c;
+        }
+        main > :nth-child(4){
+            grid-area: d;  
+        }
+        main > :nth-child(5){
+            grid-area: e;
+        }
+        main > :nth-child(6){
+            grid-area: f;
+        }
+        
+        main > :nth-child(7){
+            grid-area: g;
+        }
+        
+        main > :nth-child(8){
+            grid-area: h;
+        }
+        
+        main > :nth-child(9){
+            grid-area: i;
+        }
+        
+        main > :nth-child(10){
+            grid-area: j; 
+        }
+        
+        main > :nth-child(11){
+            grid-area: k;
+        }
+        
+        p{
+            text-align: center;
+        }
+        
+            
+     }   
+
+     @media print, screnn and(max-width:480px) and (orientation: landscape) {
+        div{
+            height: 15vh;
+            background-color: transparent;
+            border: 10px solid black;
+        }
+
+        p::before{
+            content: "April Book";
+        }
+     }
