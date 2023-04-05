@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    --hover-color: #BE3455;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 20px;
+    transition: all 1s;
+    text-align: center;
+    line-height: 105px;
+    letter-spacing: -10px;
+}
+
+h1:hover{
+    cursor: pointer;
+    font-size: 9rem;
+    /* background: conic-gradient(blue 17%, green 17%, green 34%, yellow 34%, yellow 60%, red 60%); */
+    /* background-image: url(/media/color.jpeg); */
+    color: var(--hover-color);
+    /* color: transparent; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

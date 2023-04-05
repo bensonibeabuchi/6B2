@@ -1,0 +1,176 @@
+        body{
+            margin: 0;
+            padding: 0;
+            --bg-color: #BE3455;
+            --text-color: #fff;
+            --color-w: #242424;
+            --grey-color: #858585;
+            --bg-color2: #151515;
+        }
+
+        /* NAV BAR */
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul{
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav li{
+            padding: 10px;
+            border-radius: 10px;
+            margin: 4px;
+        }
+
+        nav a{
+            margin: 10px;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        a{
+            text-decoration: none;
+            color: var(--text-color)
+        }
+
+        li a:hover{
+            color: var(--bg-color);
+            border-radius: 10px;
+            padding: 10px;
+            scale: 1.02;
+            transition: all 50ms linear;
+        }
+
+        .btn{
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            border: none;
+            padding: 10px 20px ;
+            border-radius: 20px;
+            text-transform: uppercase;
+            transition: all 50ms linear;
+            margin: 0 15px;
+        }
+
+        .btn:hover{
+            background-color: var(--text-color);
+            color: var(--bg-color);
+            cursor: pointer;
+            scale: 1.02;
+            transition: all 50ms linear;
+        }
+
+
+        /* CONTAINER */
+
+
+        .container{
+            background-image: url(/media/office.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .profile{
+            width: 35%;
+            margin: 180px 500px;
+            color: var(--text-color);
+        
+        }
+
+        .profile h1{
+            font-size: 80px;
+            margin: -10px;
+        }
+
+        span{
+            color: var(--bg-color);
+            font-weight: bold;
+        }
+
+        .grey {
+            line-height: 25px;
+            color: var(--grey-color);
+            font-size: medium
+        }
+
+    
+        .profile img{
+            margin: 0px 10px;
+        }
+
+        .about{
+            display: flex;
+            background-color: var(--color-w);
+            width: 100%;
+            padding-top: 100px;
+            justify-content: center;
+            margin: 0 auto;
+
+        }
+
+        .about_us{
+            
+            width: 30%;
+            padding-left: 3em;
+            color: var(--text-color);
+        }
+
+        .about_us h2{
+            font-size: 30px;
+        }
+        .about_us h3{
+            font-size: medium;
+        }
+
+        .about img{
+        border: 5px solid var(--bg-color);
+        }
+
+        table, tr, th, td {
+            text-align: left;
+            border-collapse: collapse;
+            padding: 0.5rem;
+        }
+
+        .btn2{
+            padding-top: 20px;
+        }
+
+        .btn3{
+            color: var(--bg-color);
+            background-color: var(--text-color);
+            border: none;
+            border-radius: 20px;
+            padding: 10px 40px;
+            margin: 30px;
+            text-transform: uppercase;
+            
+        }
+
+        .btn3:hover{
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            border: none;
+            scale: 1.02;
+            cursor: pointer;
+        }
+
+        .skills{
+            background-color: var(--bg-color2);
+            display: flex;
+            width: 100%;
+            padding-top: 100px;
+            padding-bottom: 50px;
+            justify-content: center;
+            color: var(--text-color);
+
+            
+        }
+
+  
