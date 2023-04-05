@@ -70,7 +70,7 @@
 
 
         .container{
-            background-image: url(/media/office.jpg);
+            background-image: url(../media/office.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             height: 100vh;
@@ -111,6 +111,7 @@
             padding-top: 100px;
             justify-content: center;
             margin: 0 auto;
+            padding-bottom: 100px;
 
         }
 
@@ -169,8 +170,20 @@
             padding-bottom: 50px;
             justify-content: center;
             color: var(--text-color);
+        }
 
-            
+        .skills h2 {
+            font-size: 30px;
+            padding-bottom: 40px;
+        }
+
+        .skills section{
+            text-align: left;
+            margin: 30px;
+        }
+
+        .skills h3 + p{
+            padding-bottom: 30px;
         }
 
   

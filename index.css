@@ -31,10 +31,9 @@ h1{
 h1:hover{
     cursor: pointer;
     font-size: 9rem;
-    /* background: conic-gradient(blue 17%, green 17%, green 34%, yellow 34%, yellow 60%, red 60%); */
-    /* background-image: url(/media/color.jpeg); */
-    color: var(--hover-color);
-    /* color: transparent; */
+    background-image: url(media/color.jpeg);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 a{
