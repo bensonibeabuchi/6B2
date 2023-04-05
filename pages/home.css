@@ -655,7 +655,7 @@
     
     .main > :nth-child(1){
         grid-area: a;
-        background-image: url(/media/html_logo.png);
+        background-image: url(./media/html_logo.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -663,14 +663,14 @@
     
     .main > :nth-child(2){
         grid-area: b;
-        background-image: url(/media/css_logo.png);
+        background-image: url(./media/css_logo.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
     }
     .main > :nth-child(3){
         grid-area: c;
-        background-image: url(/media/html_ass.png);
+        background-image: url(./media/html_ass.png);
         background-blend-mode: difference;
         background-size: cover;
         background-repeat: no-repeat;
@@ -743,7 +743,7 @@
     }
     
     .sect1:hover {
-        background-image: url(/media/html_logo.png);
+        background-image: url(./media/html_logo.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -751,7 +751,7 @@
     }
     
     .sect2:hover {
-        background-image: url(/media/css_logo.png);
+        background-image: url(./media/css_logo.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -759,7 +759,7 @@
     }
     
     .sect3:hover {
-        background-image: url(/media/html_ass.png);
+        background-image: url(./media/html_ass.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
