@@ -1,4 +1,4 @@
-@media screen and (max-width:480px){
+/* @media screen and (max-width:480px){
     * {
         margin: 0;
         padding: 0;
@@ -44,11 +44,6 @@
         scale: 1.05;
         transition: all 10ms linear;
     }
-    
-    
-    
-    /* BODY */
-    
     
     
     .container{
@@ -272,9 +267,9 @@
         cursor: pointer;
         transition: all 50ms linear;
     }
-}
+} */
 
-@media screen and (min-width:481px){
+/* @media screen and (min-width:481px){
     * {
         margin: 0;
         padding: 0;
@@ -320,12 +315,7 @@
         scale: 1.05;
         transition: all 10ms linear;
     }
-    
-    
-    
-    /* BODY */
-    
-    
+        
     
     .container{
         width: 50%;
@@ -548,7 +538,7 @@
         transition: all 50ms linear;
     }
 
-}
+} */
 
 @media screen and (min-width:768px){
     * {
@@ -655,7 +645,7 @@
     
     .main > :nth-child(1){
         grid-area: a;
-        background-image: url(./media/html_logo.png);
+        background-image: url(../media/html_logo.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -663,14 +653,14 @@
     
     .main > :nth-child(2){
         grid-area: b;
-        background-image: url(./media/css_logo.png);
+        background-image: url(../media/css_logo.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
     }
     .main > :nth-child(3){
         grid-area: c;
-        background-image: url(./media/html_ass.png);
+        background-image: url(../media/html_ass.png);
         background-blend-mode: difference;
         background-size: cover;
         background-repeat: no-repeat;
@@ -679,7 +669,7 @@
     
     .main > :nth-child(4){
         grid-area: d;
-        background-image: url(/media/react.png);
+        background-image: url(../media/react.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -687,7 +677,7 @@
     
     .main > :nth-child(5){
         grid-area: e;
-        background-image: url(/media/tailwind_logo.png);
+        background-image: url(../media/tailwind_logo.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -695,7 +685,7 @@
     
     .main > :nth-child(6){
         grid-area: f;
-        background-image: url(/media/js_logo.png);
+        background-image: url(../media/js_logo.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -711,7 +701,7 @@
     
     .main > :nth-child(8){
         grid-area: h;
-        background-image: url(/media/nodejs.png);
+        background-image: url(../media/nodejs.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -719,7 +709,7 @@
     
     .main > :nth-child(9){
         grid-area: i;
-        background-image: url(/media/jquery.png);
+        background-image: url(../media/jquery.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -727,7 +717,7 @@
     
     .main > :nth-child(10){
         grid-area: j;
-        background-image: url(/media/angular.png);
+        background-image: url(../media/angular.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -743,7 +733,7 @@
     }
     
     .sect1:hover {
-        background-image: url(./media/html_logo.png);
+        background-image: url(../media/html_logo.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -751,7 +741,7 @@
     }
     
     .sect2:hover {
-        background-image: url(./media/css_logo.png);
+        background-image: url(../media/css_logo.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -759,7 +749,7 @@
     }
     
     .sect3:hover {
-        background-image: url(./media/html_ass.png);
+        background-image: url(../media/html_ass.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -767,7 +757,7 @@
     }
     
     .sect4:hover {
-        background-image: url(/media/react.png);
+        background-image: url(../media/react.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -775,7 +765,7 @@
     }
     
     .sect5:hover {
-        background-image: url(/media/tailwind_logo.png);
+        background-image: url(../media/tailwind_logo.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -783,7 +773,7 @@
     }
     
     .sect6:hover {
-        background-image: url(/media/js_logo.png);
+        background-image: url(../media/js_logo.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -791,7 +781,7 @@
     }
     
     .sect7:hover {
-        background-image: url(/media/react.png);
+        background-image: url(../media/react.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -799,7 +789,7 @@
     }
     
     .sect8:hover {
-        background-image: url(/media/nodejs.png);
+        background-image: url(../media/nodejs.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -807,7 +797,7 @@
     }
     
     .sect9:hover {
-        background-image: url(/media/jquery.png);
+        background-image: url(../media/jquery.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
@@ -815,7 +805,7 @@
     }
     
     .sect10:hover {
-        background-image: url(/media/angular.png);
+        background-image: url(../media/angular.png);
         color: transparent;
         scale: 1.02;
         cursor: pointer;
