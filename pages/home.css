@@ -550,6 +550,7 @@
     }
     
     nav {
+        z-index: 1;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -586,12 +587,6 @@
         scale: 1.05;
         transition: all 10ms linear;
     }
-    
-    
-    
-    /* BODY */
-    
-    
     
     .container{
         width: 50%;
