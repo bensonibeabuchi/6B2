@@ -561,11 +561,12 @@
     
     nav {
         display: flex;
+        position: sticky;
+        top: 0;
         justify-content: space-around;
         align-items: center;
         padding: 24px;
-        position: sticky;
-        top: ;
+        box-shadow: 0 10px 10px black;
     }
     
     nav ul{
