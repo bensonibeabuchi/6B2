@@ -102,12 +102,12 @@ li a:hover{
 .main {
     display: grid;
     grid-template-columns: repeat (3, 3fr);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-rows: repeat(4, 400px);
     gap: 10px;
     grid-template-areas: "a b c" 
                          "a d c"
-                         "e d f" 
-                        ;
+                         "e d f"
+                         "g g g";
 }
 .main > :nth-child(1){
     grid-area: a;
@@ -155,6 +155,27 @@ li a:hover{
     background-repeat: no-repeat;
     background-position: center;
 }
+.main > :nth-child(7){
+    grid-area: g;
+    background-image: url(../media/css_logo.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* .main > :nth-child(8){
+    grid-area: h;
+    background-image: url(../media/css_logo.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main > :nth-child(9){
+    grid-area: i;
+    background-image: url(../media/css_logo.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
 
 .sect1:hover {
     background-image: url(../media/css_logo.png);
