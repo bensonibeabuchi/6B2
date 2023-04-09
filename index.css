@@ -5,38 +5,122 @@
     --hover-color: #BE3455;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+@media screen and (max-width:480px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    div{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1{
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        transition: all 1s;
+        text-align: center;
+        line-height: 50px;
+        letter-spacing: -6px;
+    }
+    
+    h1:hover{
+        cursor: pointer;
+        font-size: 4rem;
+        background-image: url(media/color.jpeg);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
 }
 
-div{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media screen and (min-width:481px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    div{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1{
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 20px;
+        transition: all 1s;
+        text-align: center;
+        line-height: 70px;
+        letter-spacing: -6px;
+    }
+    
+    h1:hover{
+        cursor: pointer;
+        font-size: 6rem;
+        background-image: url(media/color.jpeg);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+
 }
 
-h1{
-    font-size: 7rem;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 20px;
-    transition: all 1s;
-    text-align: center;
-    line-height: 105px;
-    letter-spacing: -10px;
+
+@media screen and (min-width: 768px){
+    
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    div{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1{
+        font-size: 7rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 20px;
+        transition: all 1s;
+        text-align: center;
+        line-height: 105px;
+        letter-spacing: -10px;
+    }
+    
+    h1:hover{
+        cursor: pointer;
+        font-size: 9rem;
+        background-image: url(media/color.jpeg);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
 }
 
-h1:hover{
-    cursor: pointer;
-    font-size: 9rem;
-    background-image: url(media/color.jpeg);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-a{
-    text-decoration: none;
-    color: black;
-}
