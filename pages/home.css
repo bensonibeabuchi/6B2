@@ -8,7 +8,7 @@
             --hover-color: #BE3455;
         }
         
-        nav {
+        nav { 
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -89,14 +89,15 @@
         .main > *{
             background-color: #eeeeee;
             height: 30vh;
-            width: 95%;
-            margin: 0 auto;
+            /* width: 95%; */
+            /* margin: 0 auto; */
             text-align: center;
             border-radius: 1em;
         }
         
         .main {
             display: grid;
+            margin: 0 10px;
             grid-template-columns: repeat (1, 1fr);
             grid-template-rows: repeat (10, 1fr);
             gap: 0.5em;
@@ -190,6 +191,7 @@
             padding: 1em;
             text-align: center;
             margin: 5px;
+            font-size: smaller;
         }
         
         .sect1:hover {
@@ -277,7 +279,8 @@
 
     }
 
-    @media screen and (min-width 481px) {
+    @media only screen and (min-width: 481px) {
+       
         * {
             margin: 0;
             padding: 0;
@@ -292,6 +295,7 @@
             justify-content: space-around;
             align-items: center;
             padding: 20px;
+            font-size: small;
         }
         
         nav ul{
@@ -325,7 +329,7 @@
         }
         
         .container{
-            width: 50%;
+            width: 90%;
             text-align: center;
             margin: 0 auto;
             padding: 3em;
@@ -336,18 +340,20 @@
             padding: 2em;
             text-align: center;
             line-height: 2em;
+            font-size: small;
         }
         .container h1{
             font-weight: bolder;
+            /* font-size: larger; */
         }
         
         .btn{
             background-color: black;
             color: white;
             border: none;
-            margin-top: 50px;
-            padding: 1.5em 3em;
-            border-radius: 1em;
+            margin-top: 40px;
+            padding: 1em 2em;
+            border-radius: 0.5em;
             text-transform: uppercase;
             font-weight: bold;
         }
@@ -367,9 +373,10 @@
         
         .main {
             display: grid;
+            margin: 0 10px;
             grid-template-columns: repeat (5, 1fr);
             grid-template-rows: repeat (2, 1fr);
-            gap: 1em;
+            gap: 0.6em;
             grid-template-areas: "a b"
                                  "c d"
                                  "e f"
@@ -548,8 +555,8 @@
     
 
     }
-        
-    @media screen and (min-width:768px) {
+
+    @media screen and (min-width: 769px) {
         * {
             margin: 0;
             padding: 0;
@@ -562,7 +569,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            padding: 24px;
+            padding: 48px;
         }
         
         nav ul{
@@ -813,8 +820,4 @@
             cursor: pointer;
             transition: all 50ms linear;
         }
-
-    
-
     }
-        
