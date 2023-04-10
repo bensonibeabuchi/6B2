@@ -328,7 +328,7 @@
         }
         
         .container{
-            width: 90%;
+            /* width: 90%; */
             text-align: center;
             margin: 0 auto;
             padding: 3em;
@@ -822,7 +822,7 @@
         } */
     }
 
-    @media screen and (min-width: 1201px) {
+    @media screen and (min-width: 1200px) {
         * {
             margin: 0;
             padding: 0;
