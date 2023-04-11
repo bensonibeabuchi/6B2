@@ -48,7 +48,7 @@
     }
     
     .container{
-        /* width: 50%; */
+        /* width: 50%;  */
         text-align: center;
         margin: 0 auto;
         padding: 3em;
@@ -56,7 +56,7 @@
     
     .container p{
         color: rgb(115, 115, 115);
-        padding: 2em;
+        padding: 1em;
         text-align: center;
         line-height: 2em;
         font-size: smaller;
@@ -280,12 +280,12 @@
         color: white;
         border: none;
         margin-top: 50px;
-        padding: 1.5em 3em;
         border-radius: 1em;
         text-transform: uppercase;
         font-weight: bold;
-        width: 20%;
+        width: 30%;
         margin-bottom: 25px;
+        justify-content: center;
     }
     
     .btn:hover{
@@ -293,10 +293,6 @@
         cursor: pointer;
         transition: all 5ms;
     }
-    
-    
-    
-    /* form  */
     
     .form {
         display: block;
