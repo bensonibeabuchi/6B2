@@ -92,9 +92,9 @@
     
     .main > *{
         background-color: #eeeeee;
-        /* height: 60vh; */
         text-align: center;
         border-radius: 1em;
+        margin: 0 10px;
     }
     
     .main {

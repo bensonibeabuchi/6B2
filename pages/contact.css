@@ -87,9 +87,7 @@
     
     .form {
         display: block;
-        width: 100%;
         background-color: #eeeeee;
-        margin: 20px auto;
         padding: 20px;
         border-radius: 8px;
     }
