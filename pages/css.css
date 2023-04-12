@@ -45,7 +45,7 @@
         color: white;
         border-radius: 10px;
         padding: 10px;
-        scale: 1.05;
+        transform: scale(1.05);
         transition: all 10ms linear;
     }
     
@@ -112,7 +112,7 @@
                              "f"
                              "g";
     }
-    
+     
     .main > :nth-child(1){
         grid-area: a;
         background-image: url(../media/css_logo.png);
@@ -170,7 +170,7 @@
     .sect1:hover {
         background-image: url(../media/css_logo.png);
         color: transparent;
-        scale: 1.01;
+        transform: scale(1.01);
         cursor: pointer;
         transition: all 50ms linear;
     }
@@ -213,7 +213,7 @@
         color: white;
         border-radius: 10px;
         padding: 10px;
-        scale: 1.03;
+        transform: scale(1.03);
         transition: all 10ms linear;
     }
     
@@ -332,7 +332,7 @@
     .sect1:hover {
         background-image: url(../media/css_logo.png);
         color: transparent;
-        scale: 1.01;
+        transform: scale(1.01);
         cursor: pointer;
         transition: all 50ms linear;
     }
@@ -375,7 +375,7 @@
         color: white;
         border-radius: 10px;
         padding: 10px;
-        scale: 1.05;
+        transform: scale(1.05);
         transition: all 10ms linear;
     }
     
@@ -495,7 +495,7 @@
     .sect1:hover {
         background-image: url(../media/css_logo.png);
         color: transparent;
-        scale: 1.01;
+        transform: scale(1.01);
         cursor: pointer;
         transition: all 50ms linear;
     }
