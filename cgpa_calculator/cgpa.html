@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>CGPA Calculator by Benson</title>
+</head>
+<body class="mx-auto bg-gray-100 text-center">
+
+    <div class="w-5/6 mx-auto text-center items-center p-4 pb-1">
+        <div>
+            <h1 class="md:text-5xl pt-2 m-4 pb-2">Cumulative Grade Point Average Calculator</h1>
+            <p class="pb-4">Kindly input your Course Code, how many unit the course is, your grade and we <b>handle</b> the rest</p>
+        </div>
+    </div>  
+        <div>
+            <table class="mx-auto">
+                <thead class="px-32">
+                    <tr class="pl-[100px] bg-black text-white text-center">
+                        <th class="p-4">Course Code</th>
+                        <th class="p-4">Unit</th>
+                        <th class="p-4">Grade</th>
+                        <!-- <th class="p-4 px-8">Total Grade Point</th> -->
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- first COURSE ENTRY -->
+                    <tr class="border">
+                        <td class="py-4 pl-8">
+                            <input class="bg-red rounded-xl p-4 text-center uppercase font-bold" type="text" name="courseCode" id="courseCode01" placeholder="Course Code" required>
+                        </td>
+
+                        <td class="px-8 py-4">
+                            <select id="creditUnit01" class="p-4 rounded-lg px-8 w-48" required>
+                                <optgroup>
+                                    <option value="">Select</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </optgroup>
+                                
+                            </select>
+                        </td>
+
+                        <td class="py-4 pr-8">
+                            <select id="grades01" class="p-4 rounded-lg px-8 w-48" required>
+                                <optgroup>
+                                    <option value="">Select</option>
+                                    <option value="5">A</option>
+                                    <option value="4">B</option>
+                                    <option value="3">C</option>
+                                    <option value="2">D</option>
+                                    <option value="1">E</option>
+                                    <option value="0">F</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- <td>
+                        <textarea class="rounded-lg resize-none bg-transparent"  name="totalGradientPoint01" id="totalGradePoint01" cols="1" rows="1"></textarea>
+                    </td> -->
+
+                    <!-- Second COURSE ENTRY -->
+
+                    <tr class="border">
+                        <td class="py-4 pl-8">
+                            <input class="bg-red rounded-xl p-4 text-center uppercase font-bold" type="text" name="courseCode" id="courseCode02" placeholder="Course Code" required>
+                        </td>
+
+                        <td class="px-8 py-4">
+                            <select id="creditUnit02" class="p-4 rounded-lg px-8 w-48" required>
+                                <optgroup>
+                                    <option value="">Select</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </optgroup>
+                                
+                            </select>
+                        </td>
+
+                        <td class="py-4 pr-8">
+                            <select id="grades02" class="p-4 rounded-lg px-8 w-48" required>
+                                <optgroup>
+                                    <option value="">Select</option>
+                                    <option value="5">A</option>
+                                    <option value="4">B</option>
+                                    <option value="3">C</option>
+                                    <option value="2">D</option>
+                                    <option value="1">E</option>
+                                    <option value="0">F</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- <td>
+                        <textarea class="px-16 py-4 mt-4 rounded-lg resize-none bg-transparent" name="totalGradientPoint02" id="totalGradePoint02" cols="1" rows="1"></textarea>
+                    </td> -->
+
+                    <!-- Third COURSE ENTRY -->
+
+                    <tr class="border">
+                        <td class="py-4 pl-8">
+                            <input class="bg-red rounded-xl p-4 text-center uppercase font-bold" type="text" name="courseCode" id="courseCode03" placeholder="Course Code" required>
+                        </td>
+
+                        <td class="px-8 py-4">
+                            <select id="creditUnit03" class="p-4 rounded-lg px-8 w-48" required>
+                                <optgroup>
+                                    <option value="">Select</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </optgroup>
+                                
+                            </select>
+                        </td>
+
+                        <td class="py-4 pr-8">
+                            <select id="grades03" class="p-4 rounded-lg px-8 w-48" required>
+                                <optgroup>
+                                    <option value="">Select</option>
+                                    <option value="5">A</option>
+                                    <option value="4">B</option>
+                                    <option value="3">C</option>
+                                    <option value="2">D</option>
+                                    <option value="1">E</option>
+                                    <option value="0">F</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- <td>
+                        <textarea class="px-16 py-4 mt-4 rounded-lg resize-none bg-transparent" name="totalGradientPoint03" id="totalGradePoint03" cols="1" rows="1"></textarea>
+                    </td> -->
+
+                    <!-- Fourth COURSE ENTRY -->
+
+                    <tr class="border">
+                        <td class="py-4 pl-8">
+                            <input class="bg-red rounded-xl p-4 text-center uppercase font-bold" type="text" name="courseCode" id="courseCode04" placeholder="Course Code" required>
+                        </td>
+
+                        <td class="px-8 py-4">
+                            <select id="creditUnit04" class="p-4 rounded-lg px-8 w-48" required>
+                                <optgroup>
+                                    <option value="">Select</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </optgroup>
+                                
+                            </select>
+                        </td>
+
+                        <td class="py-4 pr-8">
+                            <select id="grades04" class="p-4 rounded-lg px-8 w-48" required>
+                                <optgroup>
+                                    <option value="">Select</option>
+                                    <option value="5">A</option>
+                                    <option value="4">B</option>
+                                    <option value="3">C</option>
+                                    <option value="2">D</option>
+                                    <option value="1">E</option>
+                                    <option value="0">F</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- <td>
+                        <textarea class="px-16 py-4 mt-8 rounded-lg resize-none bg-transparent" name="totalGradientPoint04" id="totalGradePoint04" cols="1" rows="1"></textarea>
+                    </td> -->
+
+                         <!-- Fifth COURSE ENTRY -->
+
+                    <tr class="border">
+                        <td class="py-4 pl-8">
+                            <input class="bg-red rounded-xl p-4 text-center uppercase font-bold" type="text" name="courseCode" id="courseCode05" placeholder="Course Code" required>
+                        </td>
+
+                        <td class="px-8 py-4">
+                            <select id="creditUnit05" class="p-4 rounded-lg px-8 w-48" required>
+                                <optgroup>
+                                    <option value="">Select</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                </optgroup>
+                                
+                            </select>
+                        </td>
+                        
+                        <td class="py-4 pr-8">
+                            <select id="grades05" class="p-4 rounded-lg px-8 w-48" required>
+                                <optgroup>
+                                    <option value="">Select</option>
+                                    <option value="5">A</option>
+                                    <option value="4">B</option>
+                                    <option value="3">C</option>
+                                    <option value="2">D</option>
+                                    <option value="1">E</option>
+                                    <option value="0">F</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+                    <!-- <td>
+                        <textarea class="px-16 py-4 mt-4 rounded-lg resize-none bg-transparent" name="totalGradientPoint05" id="totalGradePoint05" cols="1" rows="1"></textarea>
+                    </td> -->
+                </tbody>
+            </table>
+
+            <div>
+                <div>
+                    <button class="bg-black text-white m-3 p-3 rounded-xl hover:bg-red-800">Calculate CGPA</button>
+                </div>
+                <div class="bg-white rounded-2xl w-3/6 p-8 mx-auto text-5xl font-bold">
+                    <p id="showCgpa"> Your CGPA is:</p>
+                    <p id="status"></p>
+                </div> 
+            </div>
+        </div>
+
+    <script>
+
+        const creditUnit01 = document.getElementById("creditUnit01")
+        const grades01 = document.getElementById("grades01")
+        const totalGradePoint01 = document.getElementById("totalGradePoint01")
+
+        const creditUnit02 = document.getElementById("creditUnit02")
+        const grades02 = document.getElementById("grades02")
+        const totalGradePoint02 = document.getElementById("totalGradePoint02")
+
+        const creditUnit03 = document.getElementById("creditUnit03")
+        const grades03 = document.getElementById("grades03")
+        const totalGradePoint03 = document.getElementById("totalGradePoint03")
+
+        const showCgpa = document.getElementById("showCgpa")
+        const status = document.getElementById("status")
+
+
+        const btn = document.querySelector("button")
+
+
+
+        function calcTgp(){
+
+            const course1 = Number(creditUnit01.value)
+            const grade1 = Number(grades01.value)
+            const total1 = course1 * grade1
+            // totalGradePoint01.textContent = total1
+
+            
+
+            const course2 = Number(creditUnit02.value)
+            const grade2 = Number(grades02.value)
+            const total2 = course2 * grade2
+            // totalGradePoint02.textContent = total2
+
+           
+            const course3 = Number(creditUnit03.value)
+            const grade3 = Number(grades03.value)
+            const total3 = course3 * grade3
+            // totalGradePoint03.textContent = total3
+
+            const course4 = Number(creditUnit04.value)
+            const grade4 = Number(grades04.value)
+            const total4 = course4 * grade4
+            // totalGradePoint04.textContent = total4
+
+            const course5 = Number(creditUnit05.value)
+            const grade5 = Number(grades05.value)
+            const total5 = course5 * grade5
+            // totalGradePoint05.textContent = total5
+
+
+            const totalUnit = course1 + course2 + course3 + course4 + course5
+            const totalGpa = total1 + total2 + total3 + total4 + total5
+            const totalCgpa = totalGpa/totalUnit
+
+            let status
+
+            if(totalCgpa >= 4.5){
+                status = 'First Class'
+            }
+
+            else if(totalCgpa >= 3.5){
+                status = 'Second Class Upper'
+            }
+
+            else if(totalCgpa >= 2.5){
+                status = 'Second Class Lower'
+            }
+            
+            else if(totalCgpa >= 2){
+                status = 'Third Class'
+            }
+
+            else if(totalCgpa >= 1){
+                status = 'Pass'
+            }
+
+            else{
+                status = 'Fail'
+            }
+            showCgpa.textContent = `Your CGPA is: ${totalCgpa.toFixed(2)} (${status})`
+        }
+
+        btn.addEventListener('click', calcTgp)
+    </script>
+    
+</body>
+</html>

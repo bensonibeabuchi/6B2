@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class=" h-3/5 w-3/4 items-center justify-center text-center mx-auto my-10 p-20">
+        <h1 class="text-5xl">
+            CGPA Calculator
+        </h1>
+        <table class=" mx-auto mt-16 w-5/6">
+            <thead class="bg-black text-white text-2xl">
+                <tr>
+                    <th>subject</th>
+                    <th>score</th>
+                    <th>grade</th>
+                </tr>
+            </thead>
+            <tbody class="border border-black ">
+                <tr class="text-l border border-black" >
+                    <th>History</th>
+                    <td class="border border-black" > <input type="number" name="score" id="hs"> </td>
+                    <td id="one" ></td>
+                </tr>
+                <tr class="text-center border border-black">
+                    <th>Mathematics</th>
+                    <td class="border border-black"><input type="number" name="score" id="mt"></td>
+                    <td id="two"></td>
+                </tr>
+                <tr class="text-center border border-black">
+                    <th>Physics</th>
+                    <td class="border border-black"><input type="number" name="score" id="ph"></td>
+                    <td id="three"></td>
+                </tr>
+                <tr class="text-center border border-black">
+                    <th>Chemistry</th>
+                    <td class="border border-black"><input type="number" name="score" id="ch"></td>
+                    <td id="four"></td>
+                </tr>
+            </tbody>
+
+            <tfoot class="border-collapse mt-4">
+                <tr class="">
+                    <td colspan="2"> <button class="bg-black text-white p-4 mt-4 rounded-xl">Check Average</button></td>
+                    <td id="avg"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    
+
+    <script>
+        const hs = document.getElementById("hs")
+        const mt = document.getElementById("mt")
+        const ph = document.getElementById("ph")
+        const ch = document.getElementById("ch")
+
+        const one = document.getElementById("one")
+        const two = document.getElementById("two")
+        const three = document.getElementById("three")
+        const four = document.getElementById("four")
+        
+        const avg = document.getElementById("avg")
+        const btn = document.querySelector("button")
+
+        function calcScore(){
+            const score1 = Number(hs.value)
+            const score2 = Number(mt.value)
+            const score3 = Number(ph.value)
+            const score4 = Number(ch.value)
+            const total = score1 + score2 + score3 + score4
+
+        
+             
+            avg.textContent = (total / 4).toFixed(2)
+            // alert(total)
+        }
+
+        btn.addEventListener('click', calcScore)
+    </script>
+</body>
+</html>
