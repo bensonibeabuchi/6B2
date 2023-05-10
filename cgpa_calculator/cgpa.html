@@ -234,7 +234,7 @@
                 </div>
                 <div class="bg-white rounded-2xl w-3/6 p-8 mx-auto text-5xl font-bold">
                     <p id="showCgpa"> Your CGPA is:</p>
-                    <p id="status"></p>
+                    <p id="status">ggg</p>
                 </div> 
             </div>
         </div>
@@ -254,7 +254,7 @@
         const totalGradePoint03 = document.getElementById("totalGradePoint03")
 
         const showCgpa = document.getElementById("showCgpa")
-        const status = document.getElementById("status")
+        const status1 = document.getElementById("status")
 
 
         const btn = document.querySelector("button")
@@ -321,7 +321,8 @@
             else{
                 status = 'Fail'
             }
-            showCgpa.textContent = `Your CGPA is: ${totalCgpa.toFixed(2)} (${status})`
+            showCgpa.textContent = `Your CGPA is: ${totalCgpa.toFixed(2)}`
+            status1.textContent = status
         }
 
         btn.addEventListener('click', calcTgp)
