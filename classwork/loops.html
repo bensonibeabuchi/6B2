@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Loops: Task 1</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+
+    <section id="demo" class="preview">
+
+
+
+    </section>
+    <button id="add"> Add Fruit </button>
+    <button id="remove"> Remove fruit</button>
+
+  </body>
+  <script>
+  
+      const list = document.createElement('ul');
+      const btn = document.getElementById('add')
+      const rmbtn = document.getElementById('remove')
+      
+      // Add your code here
+      
+      function addFruit(){
+        let myArray = [];
+          
+        let newFruit = prompt('add another fruit')
+        myArray.push(newFruit)
+
+        for(let fruit of myArray){
+        const innerList = document.createElement('li')
+        list.appendChild(innerList)
+        return innerList.textContent = fruit
+    }
+     }
+
+    btn.addEventListener ('click', addFruit)
+
+
+
+    function removeFruit(){
+        
+    }
+
+    rmbtn.addEventListener ('click', removeFruit)
+  
+    
+    
+    
+
+   
+
+    // Don't edit the code below here!
+
+    const section = document.querySelector('section');
+    section.appendChild(list);
+  </script>
+
+</html>
