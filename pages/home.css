@@ -1,4 +1,11 @@
-        
+span {
+    color: rgb(255, 103, 103);
+    font-size: x-small;
+    text-align: justify;
+    line-height: 2em;
+    margin-top: -10px;
+    margin-bottom: 40px;
+  }        
     @media screen and (max-width:480px) {
         * {
             margin: 0;
@@ -155,7 +162,8 @@
         
         .main > :nth-child(7){
             grid-area: g;
-            
+            background-image: url(../media/nexus_logo.png);
+            background-size: 200px;
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
@@ -163,16 +171,16 @@
         
         .main > :nth-child(8){
             grid-area: h;
-            background-image: url(../media/nodejs.png);
-            background-size: contain;
+            background-image: url(../media/akalibe.png);
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
         
         .main > :nth-child(9){
             grid-area: i;
-            background-image: url(../media/jquery.png);
-            background-size: contain;
+            background-image: url(../media/dossier.png);
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -243,7 +251,7 @@
         }
         
         .sect7:hover {
-            background-image: url(../media/react.png);
+            background-image: url(../media/nexus_logo.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -251,7 +259,7 @@
         }
         
         .sect8:hover {
-            background-image: url(../media/nodejs.png);
+            background-image: url(../media/akalibe.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -259,7 +267,7 @@
         }
         
         .sect9:hover {
-            background-image: url(../media/jquery.png);
+            background-image: url(../media/dossier.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -410,7 +418,7 @@
         .main > :nth-child(4){
             grid-area: d;
             background-image: url(../media/echo_logo.png);
-            background-size: cover;
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -433,6 +441,8 @@
         
         .main > :nth-child(7){
             grid-area: g;
+            background-image: url(../media/nexus_logo.png);
+            background-size: 200px;
             
             background-size: contain;
             background-repeat: no-repeat;
@@ -441,16 +451,16 @@
         
         .main > :nth-child(8){
             grid-area: h;
-            background-image: url(../media/nodejs.png);
-            background-size: contain;
+            background-image: url(../media/akalibe.png);
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
         
         .main > :nth-child(9){
             grid-area: i;
-            background-image: url(../media/jquery.png);
-            background-size: contain;
+            background-image: url(../media/dossier.png);
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -520,7 +530,7 @@
         }
         
         .sect7:hover {
-            background-image: url(../media/react.png);
+            background-image: url(../media/nexus_logo.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -528,7 +538,7 @@
         }
         
         .sect8:hover {
-            background-image: url(../media/nodejs.png);
+            background-image: url(../media/akalibe.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -536,7 +546,7 @@
         }
         
         .sect9:hover {
-            background-image: url(../media/jquery.png);
+            background-image: url(../media/dossier.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -687,7 +697,7 @@
         .main > :nth-child(4){
             grid-area: d;
             background-image: url(../media/echo_logo.png);
-            background-size: cover;
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -710,24 +720,24 @@
 
         .main > :nth-child(7){
             grid-area: g;
-            
-            background-size: contain;
+            background-image: url(../media/nexus_logo.png);
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
 
         .main > :nth-child(8){
             grid-area: h;
-            background-image: url(../media/nodejs.png);
-            background-size: contain;
+            background-image: url(../media/akalibe.png);
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
 
         .main > :nth-child(9){
             grid-area: i;
-            background-image: url(../media/jquery.png);
-            background-size: contain;
+            background-image: url(../media/dossier.png);
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -790,7 +800,7 @@
         }
         
         .sect7:hover {
-            background-image: url(../media/react.png);
+            background-image: url(../media/nexus_logo.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -798,7 +808,7 @@
         }
         
         .sect8:hover {
-            background-image: url(../media/nodejs.png);
+            background-image: url(../media/akalibe.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -806,7 +816,7 @@
         }
         
         .sect9:hover {
-            background-image: url(../media/jquery.png);
+            background-image: url(../media/dossier.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -970,6 +980,8 @@
         
         .main > :nth-child(7){
             grid-area: g;
+            background-image: url(../media/nexus_logo.png);
+            background-size: 200px;
             
             background-size: contain;
             background-repeat: no-repeat;
@@ -978,16 +990,16 @@
         
         .main > :nth-child(8){
             grid-area: h;
-            background-image: url(../media/nodejs.png);
-            background-size: contain;
+            background-image: url(../media/akalibe.png);
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
         
         .main > :nth-child(9){
             grid-area: i;
-            background-image: url(../media/jquery.png);
-            background-size: contain;
+            background-image: url(../media/dossier.png);
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -1057,7 +1069,7 @@
         }
         
         .sect7:hover {
-            background-image: url(../media/react.png);
+            background-image: url(../media/nexus_logo.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -1065,7 +1077,7 @@
         }
         
         .sect8:hover {
-            background-image: url(../media/nodejs.png);
+            background-image: url(../media/akalibe.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -1073,7 +1085,7 @@
         }
         
         .sect9:hover {
-            background-image: url(../media/jquery.png);
+            background-image: url(../media/dossier.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
