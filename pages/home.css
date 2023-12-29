@@ -122,8 +122,8 @@
         }
         .main > :nth-child(3){
             grid-area: c;
-            background-image: url(../media/html_ass.png);
-            background-blend-mode: difference;
+            background-image: url(../media/akw.jpg);
+      
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -211,7 +211,7 @@
         }
         
         .sect3:hover {
-            background-image: url(../media/html_ass.png);
+            background-image: url(../media/akw.jpg);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -219,7 +219,7 @@
         }
         
         .sect4:hover {
-            background-image: url(../media/react.png);
+            background-image: url(../media/echo_logo.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -400,8 +400,8 @@
         }
         .main > :nth-child(3){
             grid-area: c;
-            background-image: url(../media/html_ass.png);
-            background-blend-mode: difference;
+            background-image: url(../media/akw.jpg);
+    
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -409,7 +409,7 @@
         
         .main > :nth-child(4){
             grid-area: d;
-            background-image: url(../media/react.png);
+            background-image: url(../media/echo_logo.png);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -488,7 +488,7 @@
         }
         
         .sect3:hover {
-            background-image: url(../media/html_ass.png);
+            background-image: url(../media/akw.jpg);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -496,7 +496,7 @@
         }
         
         .sect4:hover {
-            background-image: url(../media/react.png);
+            background-image: url(../media/echo_logo.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -677,8 +677,8 @@
 
         .main > :nth-child(3){
             grid-area: c;
-            background-image: url(../media/html_ass.png);
-            background-blend-mode: difference;
+            background-image: url(../media/akw.jpg);
+    
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -686,7 +686,7 @@
 
         .main > :nth-child(4){
             grid-area: d;
-            background-image: url(../media/react.png);
+            background-image: url(../media/echo_logo.png);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -758,7 +758,7 @@
         }
         
         .sect3:hover {
-            background-image: url(../media/html_ass.png);
+            background-image: url(../media/akw.jpg);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -766,7 +766,7 @@
         }
         
         .sect4:hover {
-            background-image: url(../media/react.png);
+            background-image: url(../media/echo_logo.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -937,8 +937,8 @@
         }
         .main > :nth-child(3){
             grid-area: c;
-            background-image: url(../media/html_ass.png);
-            background-blend-mode: difference;
+            background-image: url(../media/akw.jpg);
+            
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -946,8 +946,8 @@
         
         .main > :nth-child(4){
             grid-area: d;
-            background-image: url(../media/react.png);
-            background-size: cover;
+            background-image: url(../media/echo_logo.png);
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -1025,7 +1025,7 @@
         }
         
         .sect3:hover {
-            background-image: url(../media/html_ass.png);
+            background-image: url(../media/akw.jpg);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -1033,7 +1033,7 @@
         }
         
         .sect4:hover {
-            background-image: url(../media/react.png);
+            background-image: url(../media/echo_logo.png);
             color: transparent;
             scale: 1.02;
             cursor: pointer;
@@ -1086,5 +1086,5 @@
             scale: 1.02;
             cursor: pointer;
             transition: all 50ms linear;
-        }
+           }   }
     }
